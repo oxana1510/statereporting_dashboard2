@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>State Reporting Dashboard</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header-two">
+				<div class="chat d-flex"><i class="icon-chat"></i><span>chat</span></div>
+				<div class="container">
+					<div class="mobail-menu" id="mobMenu"><div></div><div></div><div></div></div>
+					<div class="mobail-menu-close"></div>
+					<div class="block-logo">
+						<a href="#"><div class="logo"><img src="img/logo.svg" alt="State Reporting Dashboard" width="118" height="49"></div></a>
+					</div>
+					<nav class="nav">
+						<ul class="menu d-flex">
+							<li>
+								<a href="#">
+									<svg width="21" height="18">
+  									<use xlink:href="img/home.svg#home"></use>
+									</svg>Home</a></li>
+							<li><a href="#">	
+							<svg width="16" height="16">
+								<use xlink:href="img/search.svg#search"></use>
+							</svg>Course Lookup</a></li>
+							<li><a href="#">
+								<svg width="20" height="20">
+								<use xlink:href="img/license2.svg#license2"></use>
+								</svg>
+							License</a></li>
+							<li><a href="#">
+								<svg width="15" height="18">
+								<use xlink:href="img/education.svg#education"></use>
+								</svg>Education provider</a></li>
+							<li><a href="#">
+								<svg width="20" height="18">
+								<use xlink:href="img/blog.svg#blog"></use>
+								</svg>Blog</a></li>
+						</ul>
+					</nav>
+						<div class="chat-block">
+							<div class="icon-bell"></div>
+						</div>
+						<div class="portal">
+							<a href="#">
+								<svg width="20" height="20">
+								<use xlink:href="img/license2.svg#license2"></use>
+								</svg>
+								License Portal
+							</a>
+						</div>
+						<div class="profile">
+						<svg width="15" height="15">
+  							<use xlink:href="img/user.svg#user"></use>
+						</svg>
+  							Hello Lynne <i class="icon-down-open"></i></div>
+				</div>
+			</header>
+			<main>
+				<div class="review">
+					<h1>Review Your Course</h1>
+					<div class="tabs-block">
+					<div class="container">
+						<div class="tab">
+							<button class="tablinks active" onclick="openCity(event, 'CourseFeedback')" id="defaultOpen">
+								<svg width="25" height="28">
+	      							<use xlink:href="img/course.svg#course"></use>
+	  							</svg>
+	  						Course Feedback</button>
+						</div>
+						<div id="CourseFeedback" class="tabcontent">
+							<ul class="list">
+								<li><span>Course:</span>
+									<span>The Landlord - Tenant Relationship</span>
+								</li>
+								<li>
+									<span>Was This course relevant to your license type:</span>
+									<span>
+										<select name="option" id="option">
+											<option value="Select Option1">Select Option1</option>
+											<option value="Select Option2">Select Option2</option>
+											<option value="Select Option3">Select Option3</option>
+											<option value="Select Option4">Select Option4</option>
+											<option value="Select Option5">Select Option5</option>
+										</select>
+										</span>
+								</li>
+								<li>
+									<span>Rating:</span>
+									<span>
+										<label>5 Stars
+										<input type="radio" checked="checked" name="radio">
+										<div class="checkmark"></div>
+										</label>
+										<label >4 Stars
+										<input type="radio" name="radio">
+										<div class="checkmark"></div>
+										</label>
+										<label>3 Stars
+										<input type="radio" name="radio">
+										<div class="checkmark"></div>
+										</label>
+										<label>2 Stars
+										<input type="radio" name="radio">
+										<div class="checkmark"></div>
+										</label>
+										<label >1 Stars
+										<input type="radio" name="radio">
+										<div class="checkmark"></div>
+										</label>
+									</span>
+								</li>
+								<li>
+									<span>Feedback:</span>
+									<span>
+										<form action="">
+											<textarea rows="4" cols="10" name="textarea"></textarea>
+											<input type="submit" value="submit feedback" class="bth">
+										</form>
+									</span>
+								</li>
+							</ul>			
+						</div>
+				</div>
+				</div>
+			</div>
+			</main>
+			<footer class="footer">
+				<div class="container d-flex">
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Privacy Notice</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+					<p class="copy-block">&copy; 2019 StateReporting, LLC. All Rights Reserved</p>
+					<div class="link-bottom d-flex">
+						<a href="#"><img src="img/McAfee.png" alt=""></a>
+						<a href="#"><img src="img/ver.png" alt=""></a>
+						<a href="#"><i class="icon-facebook"></i></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="scripts/jquery-3.3.1.min.js"></script>	
+		<script src="scripts/script.js"></script>
+		<script src="scripts/svgxuse.min.js"></script>
+	</body>
+</html>		
+
+
+
